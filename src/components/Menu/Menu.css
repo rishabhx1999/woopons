@@ -1,0 +1,33 @@
+.menu-wrapper {
+    color: var(--primary);
+    background: var(--red);
+    z-index: 1000;
+    position: fixed;
+    left: -210px;
+    top: 0;
+    height: 100%;
+    max-width: 210px;
+    width: 100%;
+    transition: left 0.3s ease;
+}
+
+.menu-open {
+    left: 0;
+}
+
+.menu-container {
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
+
+a {
+    padding-top: 0.3rem;
+}
+
+.menu-link-active {
+    color: var(--secondary);
+}
+
+.menu-link-active.our-plans {
+    color: var(--primary);
+}

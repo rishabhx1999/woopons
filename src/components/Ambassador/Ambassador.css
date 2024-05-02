@@ -1,0 +1,180 @@
+.ambassador-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ambassador-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding-left: 1rem;
+    padding-top: 10rem;
+    padding-right: 1rem;
+}
+
+.ambassador-horizontal-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
+.ambassador-full-name {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    width: 50%;
+}
+
+.ambassador-name-label {
+    padding-bottom: 0.75rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#ambassador-name-field {
+    margin-top: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.ambassador-phone {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    width: 50%;
+}
+
+.ambassador-phone-label {
+    padding-bottom: 0.75rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#ambassador-phone-field {
+    margin-top: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.ambassador-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ambassador-email-label {
+    padding-bottom: 0.75rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#ambassador-email-field {
+    margin-top: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.ambassador-social-media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ambassador-social-media-label {
+    padding-bottom: 0.75rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#ambassador-social-media-field {
+    margin-top: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.ambassador-good {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ambassador-good-label {
+    padding-bottom: 0.75rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#ambassador-good-field {
+    margin-top: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.ambassador-form-message-container {
+    display: flex;
+    text-align: center;
+}
+
+.ambassador-form-message {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--primary);
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+@media (max-width:575px) {
+    .ambassador-horizontal-container {
+        flex-direction: column;
+    }
+
+    .ambassador-full-name {
+        padding-right: 0;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    .ambassador-phone {
+        padding-left: 0;
+        padding-top: 1rem;
+        width: 100%;
+    }
+}

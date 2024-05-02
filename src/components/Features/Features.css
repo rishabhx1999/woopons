@@ -1,0 +1,103 @@
+.features-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1.5rem;
+}
+
+.features-image-container {
+    width: 50%;
+}
+
+.features-image {
+    width: 100%;
+    height: auto;
+}
+
+.features-description {
+    width: 50%;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-title {
+    padding-top: 3rem;
+    padding-bottom: 0.75rem;
+    font-size: 50px;
+    color: var(--primary);
+    font-weight: normal;
+    font-family: "Bebas Neue", cursive;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.feature-tick {
+    color: green;
+}
+
+.feature-description {
+    padding-left: 5px;
+    font-size: 18px;
+    color: var(--black-4);
+    font-weight: 500;
+}
+
+.features-description .button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.75rem;
+    width: 100%;
+    max-width: 475px;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0px 2px 20px RGB(190 29 45/58%);
+}
+
+.features-description .button div:first-child {
+    font-size: 22px;
+}
+
+.features-description .button div:last-child {
+    color: var(--primary);
+    font-size: 16px;
+}
+
+@media (max-width:768px) {
+    .features-container {
+        flex-direction: column;
+    }
+
+    .features-image-container {
+        width: 100%;
+    }
+
+    .features-description {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .features-title {
+        padding-top: 1.5rem;
+    }
+
+    .features-description .button {
+        max-width: 280px;
+    }
+
+    .features-description .button div:first-child {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1536px) {
+    .features-description {
+        max-width: 640px;
+    }
+}

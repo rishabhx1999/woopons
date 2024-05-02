@@ -1,0 +1,291 @@
+.banner-wrapper {
+    background: var(--primary);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-title-part1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    color: var(--secondary);
+    font-weight: normal;
+    padding-top: 3rem;
+}
+
+.banner-title-part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+}
+
+.banner-title-place {
+    width: 65%;
+    font-size: 88px;
+    text-align: right;
+    font-family: "Bebas Neue", cursive;
+    color: var(--yellow);
+    font-weight: normal;
+}
+
+.banner-title-palm {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    margin-top: 14px;
+}
+
+.banner-title-palm h2 {
+    font-family: "Bebas Neue", cursive;
+    color: var(--yellow);
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-mobile-app {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.banner-mobile-app-about {
+    width: 58.33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-mobile-app-about .title {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--secondary);
+    padding-top: 1.5rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+}
+
+.banner-mobile-app-about .old-coupons {
+    color: var(--secondary);
+    font-size: 18px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+}
+
+.banner-mobile-app-about .mobile-app-intro {
+    color: var(--secondary);
+    font-size: 18px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+}
+
+.banner-mobile-app-about .mobile-app-intro span {
+    color: var(--red-3);
+}
+
+.banner-mobile-app-about .border {
+    background: var(--yellow);
+    width: 170px;
+    height: 4px;
+    align-self: center;
+    padding-top: 0.75rem;
+}
+
+.banner-mobile-app-image {
+    width: 41.66%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-mobile-app-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.banner-signup {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-signup-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    color: var(--secondary);
+    font-weight: normal;
+    margin-bottom: 0.75;
+}
+
+.banner-signup .button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.75rem;
+    width: 100%;
+    max-width: 482px;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.banner-signup .button div:first-child {
+    font-size: 22px;
+}
+
+.banner-signup .button div:last-child {
+    color: var(--primary);
+    font-size: 16px;
+}
+
+@media (max-width:575px) {
+    .banner-title-part1 {
+        font-size: 26px;
+    }
+
+    .banner-title-part2 {
+        flex-direction: column;
+    }
+
+    .banner-title-place {
+        font-size: 44px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-title-palm {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .banner-title-palm .palm-large-screen {
+        display: none;
+    }
+
+    .banner-title-palm .palm-small-screen {
+        display: block;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .banner-mobile-app {
+        flex-direction: column;
+    }
+
+    .banner-mobile-app-about {
+        width: 100%;
+    }
+
+    .banner-mobile-app-image {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .banner-signup-title {
+        font-size: 26px;
+    }
+
+    .banner-signup .button {
+        max-width: 400px;
+    }
+
+    .banner-signup .button div:first-child {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .banner-title-part1 {
+        font-size: 26px;
+    }
+
+    .banner-title-place {
+        font-size: 44px;
+    }
+
+    .banner-title-palm {
+        margin-top: 6px;
+    }
+
+    .banner-title-palm .palm-large-screen {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .banner-title-palm .palm-small-screen {
+        display: none;
+    }
+
+    .banner-mobile-app {
+        flex-direction: column;
+    }
+
+    .banner-mobile-app-about {
+        width: 100%;
+    }
+
+    .banner-mobile-app-image {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .banner-signup-title {
+        font-size: 26px;
+    }
+
+    .banner-signup .button {
+        max-width: 400px;
+    }
+
+    .banner-signup .button div:first-child {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .banner-title-part1 {
+        font-size: 38px;
+    }
+
+    .banner-title-place {
+        font-size: 66px;
+    }
+
+    .banner-title-palm {
+        margin-top: 10px;
+    }
+
+    .banner-title-palm .palm-large-screen {
+        font-size: 24px;
+        text-align: left;
+        display: block;
+    }
+
+    .banner-title-palm .palm-small-screen {
+        display: none;
+    }
+
+    .banner-signup-title {
+        font-size: 38px;
+    }
+}
+
+@media(min-width:992px) {
+    .banner-title-palm .palm-large-screen {
+        display: block;
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .banner-title-palm .palm-small-screen {
+        display: none;
+    }
+}

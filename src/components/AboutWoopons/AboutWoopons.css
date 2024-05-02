@@ -1,0 +1,183 @@
+.about-woopons-wrapper {
+    background: var(--primary);
+}
+
+.about-woopons-partnership {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    color: var(--secondary);
+    font-weight: normal;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.about-woopons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.about-woopons-image {
+    width: 50%;
+}
+
+.about-woopons-image img {
+    width: 100%;
+    height: auto;
+}
+
+.about-woopons-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+
+.about-woopons-description .title {
+    padding-top: 3rem;
+    padding-bottom: 0.75rem;
+    font-size: 50px;
+    text-align: left;
+    color: var(--red-3);
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+}
+
+.about-woopons-description .para {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.about-woopons-description .para:last-child {
+    padding-bottom: 0;
+}
+
+.about-woopons-description .tick {
+    color: green;
+}
+
+.about-woopons-description p {
+    font-size: 18px;
+    color: var(--secondary);
+    margin-left: 5px;
+}
+
+.about-woopons-outdated {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-woopons-outdated .description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.about-woopons-outdated .description .title {
+    padding-top: 3rem;
+    padding-bottom: 0.75rem;
+    font-size: 50px;
+    text-align: left;
+    color: var(--red-3);
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+}
+
+.about-woopons-outdated .description .sub-title {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--secondary);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: left;
+}
+
+.about-woopons-outdated .description p {
+    padding-top: 0.75rem;
+    font-size: 18px;
+    text-align: left;
+    color: var(--secondary);
+    font-weight: 500;
+}
+
+.about-woopons-outdated .image {
+    width: 50%;
+}
+
+.about-woopons-outdated .image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:767px) {
+    .about-woopons-partnership {
+        font-size: 26px;
+    }
+
+    .about-woopons {
+        flex-direction: column;
+    }
+
+    .about-woopons-image {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    .about-woopons-description {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .about-woopons-description .title {
+        padding-top: 1.5rem;
+    }
+
+    .about-woopons-outdated {
+        flex-direction: column;
+    }
+
+    .about-woopons-outdated .description {
+        width: 100%;
+        padding-right: 1rem;
+    }
+
+    .about-woopons-outdated .description .title {
+        padding-top: 0;
+    }
+
+    .about-woopons-outdated .image {
+        width: 100%;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .about-woopons-partnership {
+        font-size: 38px;
+    }
+}
+
+@media(min-width:1536px) {
+    .about-woopons-description {
+        max-width: 640px;
+    }
+
+    .about-woopons-outdated {
+        justify-content: right;
+    }
+
+    .about-woopons-outdated .description {
+        max-width: 640px;
+        padding-right: 3rem;
+        text-align: right;
+    }
+}

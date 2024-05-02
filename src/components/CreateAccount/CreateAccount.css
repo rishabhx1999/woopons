@@ -1,0 +1,141 @@
+.create-account-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-heading {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.create-account-full-name {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    max-width: 550px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.create-account-full-name-label {
+    color: var(--black-3);
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#create-account-full-name-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-4);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: var(--primary);
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#create-account-full-name-field:focus {
+    box-shadow: 0 0 0 .25rem var(--blue-3);
+}
+
+.create-account-email {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    max-width: 550px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.create-account-email-label {
+    color: var(--black-3);
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#create-account-email-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-4);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: var(--primary);
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#create-account-email-field:focus {
+    box-shadow: 0 0 0 .25rem var(--blue-3);
+}
+
+.create-account-phone {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+    max-width: 550px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.create-account-phone-label {
+    color: var(--black-3);
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.create-account-phone-lable-sub-title {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--black-3);
+}
+
+#create-account-phone-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-4);
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: var(--primary);
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#create-account-phone-field:focus {
+    box-shadow: 0 0 0 .25rem var(--blue-3);
+}
+
+.create-account-container .button {
+    align-self: center;
+    width: 100%;
+    max-width: 550px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    cursor: pointer;
+    background: var(--red-3);
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--secondary);
+}

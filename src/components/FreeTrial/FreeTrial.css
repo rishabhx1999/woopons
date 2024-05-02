@@ -1,0 +1,52 @@
+.free-trial-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.free-trial-title {
+    padding-top: 1.5rem;
+    font-size: 28px;
+    text-align: center;
+    color: var(--black-5);
+    font-weight: normal;
+}
+
+.free-trial-sub-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--green);
+    padding-bottom: 0.75rem;
+}
+
+.free-trial-container .button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.75rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    max-width: 382px;
+    align-self: center;
+    text-align: center;
+    font-weight: 500;
+    box-shadow: 0px 2px 20px RGB(190 29 45/58%);
+}
+
+.free-trial-container .button div:first-child {
+    font-size: 22px;
+}
+
+.free-trial-container .button div:last-child {
+    color: var(--primary);
+    font-size: 16px;
+}
+
+@media(max-width:575px) {
+    .free-trial-container .button {
+        max-width: 280px;
+    }
+
+    .free-trial-container .button div:first-child {
+        font-size: 18px;
+    }
+}

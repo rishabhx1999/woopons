@@ -1,0 +1,423 @@
+.privacy-policy-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--black-7);
+}
+
+.privacy-policy-welcome {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-welcome-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-welcome-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-welcome-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-welcome-content p:last-child {
+    padding-bottom: 0;
+}
+
+.privacy-policy-general {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-general-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-general-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-general-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-general-content p:last-child {
+    padding-bottom: 0;
+}
+
+.privacy-policy-general-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-general-content ul li {
+    font-size: 18px;
+}
+
+.privacy-policy-general-content ul li a {
+    color: var(--red-3);
+}
+
+.privacy-policy-gathered {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-gathered-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-gathered-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-gathered-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-gathered-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-gathered-content ul:last-child {
+    padding-bottom: 0;
+}
+
+.privacy-policy-gathered-content ul li {
+    font-size: 18px;
+}
+
+.privacy-policy-gathered-content ul li a {
+    color: var(--red-3);
+}
+
+.privacy-policy-keep {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-keep-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-keep-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-keep-content p {
+    padding-top: 0.5rem;
+}
+
+.privacy-policy-use {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-use-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-use-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-use-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-use-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.privacy-policy-consent {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-consent-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-consent-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-consent-content p {
+    padding-top: 0.5rem;
+}
+
+.privacy-policy-share {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-share-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-share-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-share-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-share-content p:last-child {
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-protect {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-protect-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-protect-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-protect-content p {
+    padding-top: 0.5rem;
+}
+
+.privacy-policy-rights {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-rights-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-rights-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-rights-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-rights-content p:last-child {
+    padding-bottom: 0;
+}
+
+.privacy-policy-rights-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.privacy-policy-children {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-children-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-children-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-children-content p {
+    padding-top: 0.5rem;
+}
+
+.privacy-policy-third-parties {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-third-parties-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-third-parties-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-third-parties-content p {
+    padding-top: 0.5rem;
+}
+
+.privacy-policy-contact {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-contact-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.privacy-policy-contact-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy-policy-contact-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.privacy-policy-contact-content p:last-child {
+    padding-bottom: 0;
+}

@@ -1,0 +1,712 @@
+.terms-and-conditions-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-welcome {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-welcome-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-welcome-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-welcome-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-welcome-content p:last-child {
+    padding-bottom: 0;
+}
+
+.terms-and-conditions-welcome-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-welcome-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-welcome-content ul li a {
+    color: var(--red-3);
+}
+
+.terms-and-conditions-acceptance {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-acceptance-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-acceptance-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-acceptance-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-acceptance-content p:last-child {
+    padding-bottom: 0;
+}
+
+.terms-and-conditions-notifications {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-notifications-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-notifications-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-notifications-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-coupons {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-coupons-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-coupons-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-coupons-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-coupons-content p:last-child {
+    padding-bottom: 0;
+}
+
+.terms-and-conditions-coupons-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-coupons-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-payments {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-payments-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-payments-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-payments-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-payments-content p:last-child {
+    padding-bottom: 0;
+}
+
+.terms-and-conditions-payments-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-payments-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-disclaimer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-disclaimer-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-disclaimer-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-disclaimer-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-license {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-license-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-license-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-license-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-copyright {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-copyright-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-copyright-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-copyright-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-infringement {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-infringement-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-infringement-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-infringement-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-infringement-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-infringement-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-personal {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-personal-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-personal-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-personal-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-prohibited {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-prohibited-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-prohibited-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-prohibited-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-prohibited-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-prohibited-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-warranties {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-warranties-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-warranties-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-warranties-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-warranties-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-warranties-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-communication {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-communication-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-communication-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-communication-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-third-parties {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-third-parties-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-third-parties-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-third-parties-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-indemnification {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-indemnification-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-indemnification-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-indemnification-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-indemnification-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-indemnification-content ul li {
+    font-size: 18px;
+}
+
+.terms-and-conditions-changes {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-changes-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-changes-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-changes-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-assignment {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-assignment-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-assignment-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-assignment-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-integration {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-integration-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-integration-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-integration-content p {
+    padding-top: 0.5rem;
+}
+
+.terms-and-conditions-disputes {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-disputes-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-disputes-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-disputes-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-disputes-content p:last-child {
+    padding-bottom: 0;
+}
+
+.terms-and-conditions-final {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-final-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-final-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-final-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-final-content p:last-child {
+    padding-bottom: 0;
+}
+
+.terms-and-conditions-contact {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-contact-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.terms-and-conditions-contact-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-conditions-contact-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.terms-and-conditions-contact-content p:last-child {
+    padding-bottom: 0;
+}

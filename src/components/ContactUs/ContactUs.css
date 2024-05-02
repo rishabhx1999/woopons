@@ -1,0 +1,174 @@
+.contact-us-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 6rem;
+    margin-right: 1rem;
+    margin-bottom: 6rem;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    max-width: 550px;
+    border: 1px dashed #CDE0EC;
+    border-radius: 4px;
+}
+
+.contact-us-heading-container {
+    display: flex;
+    text-align: center;
+    padding-bottom: 0.75rem;
+}
+
+.contact-us-heading {
+    color: var(--primary);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#contact-us-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-us-first-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.contact-us-first-name-label {
+    color: var(--primary);
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#contact-us-first-name-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.contact-us-last-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.contact-us-last-name-label {
+    color: var(--primary);
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#contact-us-last-name-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.contact-us-email {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.contact-us-email-label {
+    color: var(--primary);
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#contact-us-email-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.contact-us-phone {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.contact-us-phone-label {
+    color: var(--primary);
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#contact-us-phone-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}
+
+.contact-us-message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0.75rem;
+}
+
+.contact-us-message-label {
+    color: var(--primary);
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-weight: 400;
+}
+
+#contact-us-message-field {
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: var(--grey-3);
+    border-radius: 0.25rem;
+    padding: 15px 20px;
+    color: var(--black-6);
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+.header-wrapper {
+    color: var(--primary);
+    background: #DBDBDB;
+}
+
+.header-container {
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    padding-top: 1.5rem;
+    padding-right: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.header-logo {
+    max-width: 200px;
+    width: 100%;
+}
+
+.header-menu {
+    gap: 2.5rem;
+}
+
+.header-link-active {
+    color: var(--red);
+}
+
+.header-link-active.our-plans {
+    color: var(--primary);
+}
+
+.header-right .button {
+    margin-left: 1.2rem;
+}
+
+.header-right .menu-icon {
+    display: none;
+    margin-left: 1.2rem;
+}
+
+@media(max-width: 991px) {
+    .header-right .menu-icon {
+        display: block;
+    }
+
+    .header-menu {
+        display: none;
+    }
+}

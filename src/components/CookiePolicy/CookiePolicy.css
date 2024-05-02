@@ -1,0 +1,308 @@
+.cookie-policy-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cookie-policy-title {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    font-size: 40px;
+    color: var(--black-7);
+}
+
+.cookie-policy-welcome {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-welcome-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-welcome-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-welcome-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cookie-policy-welcome-content p:last-child {
+    padding-bottom: 0;
+}
+
+.cookie-policy-welcome-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-welcome-content ul li {
+    font-size: 18px;
+}
+
+.cookie-policy-welcome-content ul li a {
+    color: var(--red-3);
+}
+
+.cookie-policy-cookies {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-cookies-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-cookies-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-cookies-content p {
+    padding-top: 0.5rem;
+}
+
+.cookie-policy-refuse {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-refuse-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-refuse-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-refuse-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cookie-policy-refuse-content ul {
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-refuse-content ul:last-child {
+    padding-bottom: 0;
+}
+
+.cookie-policy-refuse-content ul li {
+    font-size: 18px;
+}
+
+.cookie-policy-refuse-content ul li a {
+    color: var(--red-3);
+}
+
+.cookie-policy-first-party {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-first-party-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-first-party-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-first-party-content p {
+    padding-top: 0.5rem;
+}
+
+.cookie-policy-third-party {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-third-party-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-third-party-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-third-party-content p {
+    padding-top: 0.5rem;
+}
+
+.cookie-policy-types {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cookie-policy-types-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-types-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cookie-policy-types-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cookie-policy-types-content table {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+}
+
+.cookie-policy-types-content th {
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.cookie-policy-types-content td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+.cookie-policy-purpose {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-purpose-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-purpose-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-purpose-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cookie-policy-purpose-content p:last-child {
+    padding-bottom: 0;
+}
+
+.cookie-policy-contact {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-contact-title {
+    padding-bottom: 0.5rem;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: var(--black-7);
+}
+
+.cookie-policy-contact-content {
+    color: var(--black-5);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.cookie-policy-contact-content p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.cookie-policy-contact-content p:last-child {
+    padding-bottom: 0;
+}

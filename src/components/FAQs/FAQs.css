@@ -1,0 +1,79 @@
+.faqs-wrapper {
+    background-image: url("/public/faqs-background.png");
+    background-size: cover;
+}
+
+.faqs-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.faqs-title {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    color: var(--black-5);
+}
+
+.faqs {
+    width: 100%;
+    max-width: 865px;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary);
+    align-self: center;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.7rem;
+    padding-top: 1rem;
+    padding-right: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.faq {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-desription {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.answer {
+    padding-top: 0.5rem;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black-4);
+}
+
+.faq-break {
+    background-color: var(--primary);
+    height: 1px;
+    opacity: 0.2;
+}
+
+@media(max-width:767px) {
+    .faqs-title {
+        font-size: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .faqs-title {
+        font-size: 45px;
+    }
+}

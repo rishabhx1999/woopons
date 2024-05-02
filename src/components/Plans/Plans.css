@@ -1,0 +1,287 @@
+.plans-title {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+    color: var(--black-5);
+    font-weight: normal;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.plans {
+    background-image: url("/public/plans-background.png");
+    background-size: cover;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.plans .innerWidth {
+    display: flex;
+    flex-direction: row;
+}
+
+.plan {
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan:first-child {
+    padding-left: 1rem;
+    padding-right: 0.75rem;
+}
+
+.plan:last-child {
+    padding-left: 0.75rem;
+    padding-right: 1rem;
+}
+
+.plan-upper {
+    background: var(--red-4);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: normal;
+    color: var(--secondary);
+}
+
+.plan-renewal {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.plan-renewal h4 {
+    text-align: center;
+    font-size: 25px;
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+.plan-renewal h6 {
+    text-align: center;
+    font-size: 12px;
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+.plan-woopons {
+    font-size: 50px;
+    font-family: "Bebas Neue", cursive;
+    color: var(--yellow);
+    font-weight: normal;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.plan-lower {
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary);
+    border-radius: 0 0 20px 20px;
+}
+
+.plan-trial {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.plan-lower-break {
+    background: var(--primary);
+    opacity: 0.2;
+    height: 1px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.plan-pricing {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.plan-pricing span {
+    font-size: 12px;
+}
+
+.plan-lower .button {
+    max-width: 350px;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+@media(max-width:575px) {
+    .plans-title {
+        font-size: 26px;
+    }
+
+    .plan {
+        width: 100%;
+    }
+
+    .plan:first-child {
+        padding-right: 1rem;
+    }
+
+    .plan:last-child {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    .plans .innerWidth {
+        flex-direction: column;
+    }
+
+    .plan-title {
+        font-size: 36px;
+    }
+
+    .plan-renewal h4 {
+        font-size: 22px;
+    }
+
+    .plan-renewal h6 {
+        font-size: 10px;
+    }
+
+    .plan-woopons {
+        font-size: 45px;
+    }
+
+    .plan-trial {
+        font-size: 32px;
+    }
+
+    .plan-pricing {
+        font-size: 32px;
+    }
+
+    .plan-pricing span {
+        font-size: 10px;
+    }
+
+    .plan-lower .button {
+        font-size: 20px;
+        max-width: 205px;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .plans-title {
+        font-size: 26px;
+    }
+
+    .plan {
+        width: 100%;
+    }
+
+    .plan:first-child {
+        padding-right: 1rem;
+    }
+
+    .plan:last-child {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+    }
+
+    .plans .innerWidth {
+        flex-direction: column;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .plans-title {
+        font-size: 38px;
+    }
+
+    .plan {
+        width: 100%;
+    }
+
+    .plan-title {
+        font-size: 26px;
+    }
+
+    .plan-renewal h4 {
+        font-size: 16px;
+    }
+
+    .plan-renewal h6 {
+        font-size: 8px;
+    }
+
+    .plan-woopons {
+        font-size: 34px;
+    }
+
+    .plan-trial {
+        font-size: 24px;
+    }
+
+    .plan-pricing {
+        font-size: 24px;
+    }
+
+    .plan-pricing span {
+        font-size: 8px;
+    }
+
+    .plan-lower .button {
+        font-size: 14px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .plan-title {
+        font-size: 36px;
+    }
+
+    .plan-renewal h4 {
+        font-size: 22px;
+    }
+
+    .plan-renewal h6 {
+        font-size: 10px;
+    }
+
+    .plan-woopons {
+        font-size: 45px;
+    }
+
+    .plan-trial {
+        font-size: 32px;
+    }
+
+    .plan-pricing {
+        font-size: 32px;
+    }
+
+    .plan-pricing span {
+        font-size: 10px;
+    }
+
+    .plan-lower .button {
+        font-size: 20px;
+    }
+}

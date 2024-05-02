@@ -1,13 +1,101 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary: black;
+  --secondary: white;
+  --black-translucent: rgba(0, 0, 0, 0.175);
+  --light-black: rgb(51, 51, 51);
+  --black-3: #413F42;
+  --black-4: #6E6E73;
+  --black-5: #212427;
+  --black-6: #2a3135;
+  --black-7: #212529;
+  --black8: #00000091;
+  --greyish-white: rgb(245, 245, 247);
+  --white-3: #F5F5F5;
+  --light-grey: #E4E9F0;
+  --grey: rgb(204, 204, 204);
+  --grey-3: #f3f8fb;
+  --grey-4: #F5F5F7;
+  --red: #bf1e2e;
+  --light-red: rgb(233, 61, 61);
+  --red-3: #BE1D2D;
+  --red-4: #be1e2e;
+  --blue: #188bf6;
+  --light-blue: #c2daff;
+  --blue-3: rgba(13, 110, 253, .25);
+  --blue-4: #86b7fe;
+  --yellow: #FFB337;
+  --green: #54B435;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Montserrat;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.innerWidth {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.flexColCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.button {
+  background: #ffb337;
+  padding: 0.8rem 1.2rem;
+  border-radius: 15px;
+  font-weight: 500;
+  color: #be1e2e;
+  border: none;
+  cursor: pointer;
+}
+
+@media(min-width:1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
 }
