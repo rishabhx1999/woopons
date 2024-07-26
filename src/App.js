@@ -56,7 +56,7 @@ const App = () => {
         navigate("/");
       }
     }
-  }, [logoutRedirectTo]);
+  }, [logoutUserRedirectTo]);
 
   useEffect(() => {
     let token = null,

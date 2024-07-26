@@ -17,3 +17,7 @@ export const closeSideMenu = () => {
 export const toggleSideMenu = () => {
   return { type: "TOGGLESIDEMENU" };
 };
+
+export const toggleUserMainOptionsBox = () => {
+  return { type: "TOGGLEUSERMAINOPTIONSBOX" };
+};

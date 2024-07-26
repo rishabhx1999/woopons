@@ -19,12 +19,19 @@
   --light-red: rgb(233, 61, 61);
   --red-3: #BE1D2D;
   --red-4: #be1e2e;
+  --red-5: #842029;
+  --red-6: #f8d7da;
+  --red-7: #f5c2c7;
+  --red-8: rgb(220, 53, 69);
   --blue: #188bf6;
   --light-blue: #c2daff;
   --blue-3: rgba(13, 110, 253, .25);
   --blue-4: #86b7fe;
   --yellow: #FFB337;
   --green: #54B435;
+  --green-2: #0f5132;
+  --green-3: #d1e7dd;
+  --green-4: #badbcc;
 }
 
 * {

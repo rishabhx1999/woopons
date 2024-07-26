@@ -19,29 +19,38 @@ const responseBody = (res) => res.body;
 const requests = {
   del: (url) =>
     superagent.del(`${API_ROOT}${url}`).use(tokenPlugin).then(responseBody),
-  get: (url) => {
-    console.log("src agent.js " + `${API_ROOT}${url}`);
-    superagent
-      .agent()
-      .use(prefix(baseURL))
-      .get(`${API_ROOT}${url}`)
-      .use(tokenPlugin)
-      .then(responseBody);
-  },
+  get: (url) =>
+    fetch(`${baseURL}${API_ROOT}${url}`)
+      .then((res) => res.json())
+      .then((json) => json),
+  // superagent
+  //   .agent()
+  //   .use(prefix(baseURL))
+  //   .get(`${API_ROOT}${url}`)
+  //   .then(responseBody);
   put: (url, body) =>
     superagent
       .put(`${API_ROOT}${url}`, body)
       .use(tokenPlugin)
       .then(responseBody),
   post: (url, body) =>
-    superagent
-      .post(`${API_ROOT}${url}`, body)
-      .use(tokenPlugin)
-      .then(responseBody),
+    fetch(`${baseURL}${API_ROOT}${url}`, {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body),
+    })
+      .then((res) => res.json())
+      .then((json) => json),
   postLogin: (url, body) =>
-    superagent
-      .post(`${API_ROOT}${url}`, body)
-      .set("Authorization", `Bearer ${body.token}`),
+    fetch(`${baseURL}${API_ROOT}${url}`, {
+      method: "POST",
+      body: JSON.stringify(body),
+    })
+      .then((res) => res.json())
+      .then((json) => json),
 };
 
 const Auth = {
@@ -52,7 +61,7 @@ const Auth = {
 };
 
 const common = {
-  getCusPlans: () => requests.get("base/customerplans"),
+  getCusPlans: () => requests.get("base/customerplans").then((res) => res),
   getBusPlans: () => requests.get("base/businessplans"),
   customercreate: (formData) => requests.post("base/customercreate", formData),
   verifyOTP: (formData) => requests.post("base/verifyOtp", formData),

@@ -1,8 +1,10 @@
 import {
   APP_LOAD,
   CLEAR_LOGOUT,
+  CREATE_CUSTOMER,
   CUSTOMER_LOGIN_TOKEN,
   FETCH_CUSTOMER_PLANS,
+  LOGOUT_USER,
 } from "../constants/actionTypes";
 
 const defaultState = {
@@ -22,6 +24,10 @@ const defaultState = {
   customerPlans: null,
   redirectToAccount: false,
   notFirstlogin: false,
+  customerUser: null,
+  successMsg: null,
+  errorMsg: null,
+  spStatus: null,
 };
 
 export default (state = defaultState, action) => {
@@ -45,11 +51,23 @@ export default (state = defaultState, action) => {
         currentUser: null,
       };
 
-    case FETCH_CUSTOMER_PLANS:
+    case CREATE_CUSTOMER:
       return {
         ...state,
-        customerPlans:
+        customerUser:
           action.payload && action.payload.data ? action.payload.data : null,
+        successMsg:
+          action.payload && action.payload.isSuccess
+            ? action.payload.message
+            : null,
+        errorMsg:
+          action.payload && !action.payload.isSuccess
+            ? action.payload.message
+            : null,
+        spStatus:
+          action.payload && action.payload.data
+            ? action.payload.data.sub_status
+            : null,
       };
 
     case CUSTOMER_LOGIN_TOKEN:
@@ -79,6 +97,23 @@ export default (state = defaultState, action) => {
           action.payload && action.payload.data && action.payload.data
             ? true
             : false,
+      };
+
+    case FETCH_CUSTOMER_PLANS:
+      return {
+        ...state,
+        customerPlans:
+          action.payload && action.payload.data ? action.payload.data : null,
+      };
+
+    case LOGOUT_USER:
+      return {
+        ...state,
+        logoutUserRedirectTo: true,
+        token: null,
+        loginSuccess: false,
+        // businessPlans: null,
+        // customerPlans: null,
       };
 
     default:

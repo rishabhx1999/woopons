@@ -48,6 +48,10 @@
     align-items: center;
 }
 
+/* .faq-dropdown-icon {
+    width: 15px !important;
+} */
+
 .faq-desription {
     font-size: 18px;
     font-weight: 500;

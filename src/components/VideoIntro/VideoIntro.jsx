@@ -29,7 +29,7 @@ const VideoIntro = () => {
   }, []);
 
   return (
-    <section className="video-intro wrapper">
+    <section className="video-intro-wrapper">
       <div className="video-intro-container">
         <video id="video-intro" src="./video.mp4" loop controls></video>
         <div className="button" onClick={goToPlanElement}>

@@ -84,7 +84,7 @@ const FAQs = () => {
               </div>
               <IoMdArrowDropdown
                 className="faq-dropdown-icon"
-                size={30}
+                // size={30}
                 onClick={handleQuestion3Dropdown}
               />
             </div>

@@ -1,6 +1,8 @@
 .create-account-container {
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .create-account-heading {
@@ -12,6 +14,38 @@
     font-size: 30px;
 }
 
+.create-account-success-message {
+    width: 100%;
+    max-width: 550px;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: var(--green-2);
+    background: var(--green-3);
+    border: 1px solid var(--green-4);
+    border-radius: 6px;
+}
+
+.create-account-error-message {
+    width: 100%;
+    max-width: 550px;
+    align-self: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: var(--red-5);
+    background: var(--red-6);
+    border: 1px solid var(--red-7);
+    border-radius: 6px;
+}
+
 .create-account-full-name {
     display: flex;
     flex-direction: column;
@@ -20,6 +54,8 @@
     max-width: 550px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .create-account-full-name-label {
@@ -47,6 +83,11 @@
     box-shadow: 0 0 0 .25rem var(--blue-3);
 }
 
+.create-account-full-name-error-message {
+    color: var(--red-8);
+    padding-top: 0.2rem;
+}
+
 .create-account-email {
     display: flex;
     flex-direction: column;
@@ -55,6 +96,8 @@
     max-width: 550px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .create-account-email-label {
@@ -82,6 +125,11 @@
     box-shadow: 0 0 0 .25rem var(--blue-3);
 }
 
+.create-account-email-error-message {
+    color: var(--red-8);
+    padding-top: 0.2rem;
+}
+
 .create-account-phone {
     display: flex;
     flex-direction: column;
@@ -90,6 +138,8 @@
     max-width: 550px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .create-account-phone-label {
@@ -123,6 +173,11 @@
 
 #create-account-phone-field:focus {
     box-shadow: 0 0 0 .25rem var(--blue-3);
+}
+
+.create-account-phone-error-message {
+    color: var(--red-8);
+    padding-top: 0.2rem;
 }
 
 .create-account-container .button {

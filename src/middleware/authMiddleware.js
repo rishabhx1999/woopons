@@ -21,8 +21,9 @@ const emptyStoredValues = async () => {
 };
 
 const setStoredValues = async (payload) => {
+  console.log("middleware authMiddleware.js setStoredValues");
   localStorage.setItem("isLoggedIn", true);
-  localStorage.setToken("jwt", payload.setToken);
+  localStorage.setItem("jwt", payload.setToken);
   localStorage.setItem("LSLT", new Date().getTime());
   agent.setToken(payload.token);
 };

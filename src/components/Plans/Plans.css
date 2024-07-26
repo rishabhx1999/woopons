@@ -54,6 +54,7 @@
     font-family: "Bebas Neue", cursive;
     font-weight: normal;
     color: var(--secondary);
+    text-transform: uppercase;
 }
 
 .plan-renewal {

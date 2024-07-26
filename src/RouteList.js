@@ -13,7 +13,7 @@ import CreateAccount from "./components/CreateAccount/CreateAccount";
 import TermsAndConditions from "./components/TermsAndConditions/TermsAndConditions";
 import CookiePolicy from "./components/CookiePolicy/CookiePolicy";
 import { Route, Routes } from "react-router-dom";
-import { closeSideMenu } from "./actions/actionsIndex";
+import { closeSideMenu } from "./constants/otherActionTypes";
 import { useDispatch, useSelector } from "react-redux";
 
 const RouteList = () => {
@@ -54,6 +54,7 @@ const RouteList = () => {
       </OutsideClickHandler>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/ambassador" element={<Ambassador />} />
         <Route path="/customer/contactus" element={<ContactUs />} />
         <Route path="/customer/privacy-policy" element={<PrivacyPolicy />} />
